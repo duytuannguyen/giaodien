@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Layout</title>
+	<!-- Latest compiled and minified CSS & JS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	
+	<style type="text/css" media="screen">
+		body{
+			padding-top:70px;
+		}
+	</style>
+</head>
+<body>
+	<!-- Navigation -->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <!-- Nav -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand apv-logo text-bold" href="layout.html">Apv-Bet.vn</a>
+        </div>
+        <!-- Nav collapse -->
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="nav navbar-nav text-bold fixed-nav">
+                <li>
+                    <a href="layout.html">Trang chủ</a>
+                </li>
+                <li>
+                    <a href="dudoan.html">Dự đoán</a>
+                </li>
+                <li>
+                    <a href="user.html">Tài khoản</a>
+                </li>
+            </ul>
+ 
+            <ul class="nav navbar-nav navbar-right">
+				<li><a href="#">Login</a></li>
+				<li><a href="#">Register</a></li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+<!-- /Navigation -->
+
+<!--Main-->
+<section class="maincont">
+    <div class="Container">
+        <div class="inner-page">
+            <div class="contmid">
+                <div class="headtext">Chi tiet tran dau.</div>
+                 <div class="bxbit">
+                <div class="rowbit">
+                    <h2 class="date"> Thu 2, 27/06/2016</h2>
+                    <div class="linebox clearfix">
+                        <div class="bxtime top bxtime-user">
+                            <span class="txt">A</span>
+                            <span class="time">11:00 PM </span>
+                        </div>
+
+                        <div class="bxteamleft">
+                            <span id="home_team" class="nameteam">PHAP</span>
+                        </div>
+                        <div class="bxflags">
+                            <span class="flags">
+                                <img src="images/phap.png" alt="PHAP">
+                            </span>
+                            <span class="point">0 : 0</span>
+                            <span class="flags">
+                                <img src="images/romania.png" alt="Romania">
+                            </span> 
+                        </div>
+                        <div class="bxteamright">
+                            <span id="visitor_team" class="nameteam">Romania</span>
+                        </div>
+                    </div>
+                    <div class="bxseclbit">
+                        <form action="#" method="post" accept-charset="utf-8" id="formbet">
+                            <input type="hidden" name="choose_team_win" value="">
+                            <input type="hidden" name="match_id" value="">
+                            <div class="col" id="home_win">
+                                <input type="button" id="home_win" class="btbit" value="3.2 Thang">
+                            </div>
+                             <div class="col" id="home_win">
+                                <input type="button" id="home_win" class="btbit" value="3.2 Thang">
+                            </div>
+                             <div class="col" id="home_win">
+                                <input type="button" id="home_win" class="btbit" value="3.2 Thang">
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+
+            </div>
+            </div>
+           
+        </div>
+    </div><!--end container-->   
+
+</section>
+
+
+
+
+
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js" ></script>
+</body>
+</html>
